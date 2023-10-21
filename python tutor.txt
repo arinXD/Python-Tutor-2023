@@ -1,0 +1,75 @@
+1.ให้เขียนโปรแกรมโดยสร้างฟังก์ชันแบบคืนค่าอย่างน้อย 1 ฟังก์ชัน เพื่อตรวจสอบข้อความที่ผู้ใช้ป้อนเข้ามาว่ามีการเรียงลำดับแล้วหรือไม่ หลังจากนั้นบันทึกผลลัพธ์ลงในไฟล์ sorted.txt
+
+"ACEGH"	เรียง
+"BIT"	เรียง
+"HELLO"	ไม่เรียง 
+"PYTHON"	ไม่เรียง
+
+2.ให้เขียนโปรแกรมโดยสร้างฟังก์ชันแบบคืนค่าอย่างน้อย 1 ฟังก์ชัน ตรวจสอบข้อความภายในไฟล์แบบ case-insensitive เพื่อหาว่าข้อความมีลักษณะกลับด้านกันหรือไม่
+หลังจากนั้นบันทึกผลลัพธ์ลงในไฟล์ mirror.txt
+
+* Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+
+3.ให้เขียนโปรแกรมเพื่อวัดผลการสอบโดยเรียงลำดับคนที่ได้คะแนนจากมากไปน้อย พร้อมหาค่า min, max, mean จากไฟล์ที่ผู้ใช้นำเข้า โดยสร้างฟังก์ชันอย่างน้อย 1 ฟังก์ชัน พร้อมบันทึกช้อมูลลงในไฟล์ students.txt
+
+ID,Name,Q1,Q2,Q3,Q4
+IT01,Susan,5,10,8,7	//30
+IT02,Brad,10,7,9,6	//32	90/3 = 30
+IT03,Jenny,7,3,9,9	//28
+
+* คำอธิบายข้อมูล
+ID	รหัสนักศึกษา
+Name	ชื่อนักศึกษา
+Q1	คะแนนข้อที่ 1
+Q2	คะแนนข้อที่ 2
+Q3	คะแนนข้อที่ 3
+Q4	คะแนนข้อที่ 4
+
+4.ร้าน Haffu Shop ต้องการให้นักศึกษาช่วยเขียนโปรแกรมเพื่อตรวจสอบสินค้าที่อยู่ภายในร้าน โดยที่ร้านส่งข้อมูลสต็อกมาให้ในรูปแบบของไฟล์ txt ชื่อไฟล์ product.txt เป็นไฟล์เก็บข้อมูลสต็อกสินค้า ร้าน Haffu Shop กำหนดฟังก์ชันมาให้นักศึกษาดังนี้
+4.1) แสดงหมวดหมู่สินค้าทั้งหมดภายในร้าน
+4.2) แสดงสินค้าภายในหมวดหมู่
+4.3) ผู้ใช้สามารถระบุไอดีของสินค้าเพื่อตรวจสอบข้อมูลคงเหลือของสินค้า
+
+productID,productName,price,QTY,category
+P001,Water,14,100,Drink
+P002,Doritos,40,32,Snack
+P003,Kitkat,40,150,Snack
+P004,Pen,5,200,Stationery
+P004,Book,20,150,Stationery
+
+* คำอธิบายข้อมูล
+productID	รหัสสินค้า
+productName	ชื่อสินค้า
+price		ราคา
+QTY		จำนวนคงเหลือ
+category	หมวดหมู่
+
+5.ร้าน Worapoj Shop ต้องการให้นักศึกษาช่วยเขียนโปรแกรมเพื่อตรวจสอบรายการซื้อของผู้ใช้ โดยสรุปว่ารายการซื้อมีสินค้าอะไรบ้าง ราคารวมกี่บาท บันทึกลงในไฟล์ order.txt
+
+orderId,customerId,customerName,product,price,QTY
+OR01,CUS01,Jean,Water,14,1
+OR01,CUS01,Jean,Doritos,40,2
+OR01,CUS01,Jean,Cocacola,16,2
+OR02,CUS02,John,Kitkat,40,5
+OR02,CUS02,John,Lay,40,2
+OR02,CUS02,John,Pepsi,15,3
+OR03,CUS06,Jake,Book,20,1
+OR03,CUS06,Jake,Pen,5,2
+OR03,CUS06,Jake,Rubber,10,1
+OR03,CUS06,Jake,Ruler,5,1
+
+* คำอธิบายข้อมูล
+orderId		รหัสสินค้า
+customerId	รหัสลูกค้า
+customerName	ชื่อลูกค้า
+product		สินค้า
+price		ราคา
+QTY		จำนวน
+	
+

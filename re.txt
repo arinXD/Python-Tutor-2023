@@ -1,0 +1,9 @@
+orderId#product#price#
+001,Kiwi,100
+002,Banana,200
+003,Coconut,300
+004,Orange,400
+005,Watermelon,500
+006,Apple,600
+kiwi,raspberry,babana#175
+007,Apple,600
