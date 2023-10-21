@@ -18,7 +18,7 @@ try:
         if fruit in fruits:
             fruits[fruit] += 1
     fruits = dict(sorted(fruits.items(), key=lambda item: item[1], reverse=True))
-    f = open('test.txt', 'w')
+    f = open('output.txt', 'w')
     print("========== Fruir Report ==========")
     print("Quantity\t\tFruit")
     print("==================================")
